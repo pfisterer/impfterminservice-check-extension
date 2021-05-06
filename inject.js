@@ -12,8 +12,10 @@ function getButton(text) {
 
 function clickButton(text) {
 	let button = getButton(text)
-	if (button)
+	if (button) {
+		console.log("Clicking button", button)
 		button.click();
+	}
 }
 
 function checkTermine() {
