@@ -1,0 +1,25 @@
+{
+	"name": "Check for vaccination appointments",
+	"version": "1.0",
+	"manifest_version": 3,
+	"content_scripts": [
+		{
+			"js": [
+				"index.js"
+			],
+			"matches": [
+				"https://*.impfterminservice.de/*"
+			]
+		}
+	],
+	"web_accessible_resources": [
+		{
+			"resources": [
+				"inject.js"
+			],
+			"matches": [
+				"https://*.impfterminservice.de/*"
+			]
+		}
+	]
+}
