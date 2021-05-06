@@ -20,7 +20,7 @@ function checkTermine() {
 	if (!termineExistieren) {
 		console.log("Checking...")
 		clickButton("termine suchen");
-		setTimeout(() => clickButton("abbrechen"), 1000)
+		setTimeout(() => clickButton("abbrechen"), 5000)
 	}
 }
 
